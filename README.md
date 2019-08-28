@@ -30,6 +30,9 @@ This addon tries to provide sane defaults, but it also exposes all of the intern
 for customization.
 
 ### Confirmation Message
+
+Note that customizing the user message is now deprecated according to [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeunload_event) in all browsers except IE.
+
 You can customize the message displayed in the confirmation dialog by overriding
 the `confirmationMessage` property. You can either pass a hard-coded string,
 or use a function.
